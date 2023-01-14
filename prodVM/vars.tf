@@ -5,7 +5,7 @@ variable "prodVMName" {
 
 variable "project" {
   type    = string
-  default = ""
+  default = "biteHack"
 }
 
 variable "service_account" {
