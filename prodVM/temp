@@ -1,0 +1,14 @@
+DATABASE_URL=postgresql://postgres:postgres@db:5432/?schema=bitehack&connect_timeout=300
+
+GOOGLE_CLIENT_ID=1035749052974-t5sqsjh1tsu459r7rn81qprgppg6uhcr.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+
+TOKEN_SECRET=secr3t
+ACCESS_TOKEN_EXPIRATION=1h
+REFRESH_TOKEN_EXPIRATION=1d
+
+DB_PASSWORD=postgres
+DB_USER=postgres
+DB_NAME=postgres
+
+REDIS_URL=redis://redis:6379

@@ -4,12 +4,7 @@ provider "google" {
   zone    = "europe-west4-a"
 }
 
-resource "google_service_account" "service_account" {
-  account_id   = "default"
-  display_name = var.service_account
-}
-
-resource "google_compute_instance" "vm1" {
+resource "google_compute_instance" "prodvm" {
   name         = var.prodVMName
   machine_type = "e2-medium"
   zone         = "europe-west4-a"
